@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -12,7 +13,7 @@ const page = () => {
             {/* Education Item 1 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                <img src="/buraq-logo.png" alt="University Logo" className="w-20 h-20 rounded-sm object-cover" />
+                <Image src="/buraq-logo.png" alt="University Logo" className="w-20 h-20 rounded-sm object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">Web Developer</h3>
@@ -30,7 +31,7 @@ const page = () => {
             {/* Education Item 2 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/xenovasoft-logo.jpeg" alt="University Logo" className="w-20 h-20 rounded-sm object-cover" />
+                    <Image src="/xenovasoft-logo.jpeg" alt="University Logo" className="w-20 h-20 rounded-sm object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">Junior Web Developer</h3>
@@ -47,7 +48,7 @@ const page = () => {
             {/* Education Item 3 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/itsolerapvtltd-logo.jpeg" alt="School Logo" className="w-20 h-20 rounded-full object-cover" />
+                    <Image src="/itsolerapvtltd-logo.jpeg" alt="School Logo" className="w-20 h-20 rounded-full object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">WordPress Developer Intern</h3>
@@ -63,7 +64,7 @@ const page = () => {
             {/* Education Item 4 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/devlogix-logo.jpeg" alt="School Logo" className="w-20 h-20 rounded-full object-cover" />
+                    <Image src="/devlogix-logo.jpeg" alt="School Logo" className="w-20 h-20 rounded-full object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">ReactJS Developer Intern</h3>
@@ -80,7 +81,7 @@ const page = () => {
             {/* Education Item 5 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/scentomania-logo.jpg" alt="School Logo" className="w-20 h-20 rounded-sm object-cover" />
+                    <Image src="/scentomania-logo.jpg" alt="School Logo" className="w-20 h-20 rounded-sm object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">WordPress Web Developer</h3>
@@ -98,7 +99,7 @@ const page = () => {
             {/* Education Item 6 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/buraq-logo.png" alt="School Logo" className="w-20 h-20 rounded-sm object-cover" />
+                    <Image src="/buraq-logo.png" alt="School Logo" className="w-20 h-20 rounded-sm object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">Junior Web Developer</h3>
@@ -116,7 +117,7 @@ const page = () => {
             {/* Education Item 7 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/SAS-logo.png" alt="School Logo" className="w-20 h-20 rounded-sm object-cover" />
+                    <Image src="/SAS-logo.png" alt="School Logo" className="w-20 h-20 rounded-sm object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">Database Administrator Intern</h3>

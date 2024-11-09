@@ -1,5 +1,6 @@
 import { Button } from '@headlessui/react';
 import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -10,10 +11,12 @@ const Hero = () => {
           
           {/* Image Container */}
           <div className="lg:w-2/3 flex justify-center lg:justify-start lg:mr-4">
-            <img 
-              src="ea-photo1.jpg"
+            <Image 
+              src="/ea-photo1.jpg"
               alt="Elaf Aziz"
               className="w-full h-auto max-w-lg object-cover rounded-lg shadow-lg"
+              width={100}
+              height={100}
             />
           </div>
           

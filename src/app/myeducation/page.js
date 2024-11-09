@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -13,7 +14,7 @@ const page = () => {
             {/* Education Item 1 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                <img src="/cuol-logo.png" alt="University Logo" className="w-40 h-40 rounded-full object-cover" />
+                <Image src="/cuol-logo.png" alt="University Logo" className="w-40 h-40 rounded-full object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">MSc Software Engineering with Cloud Computing</h3>
@@ -32,7 +33,7 @@ const page = () => {
             {/* Education Item 2 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/uh-logo.png" alt="University Logo" className="w-40 h-40 rounded-full object-cover" />
+                    <Image src="/uh-logo.png" alt="University Logo" className="w-40 h-40 rounded-full object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">BSc (Hons) Computer Science</h3>
@@ -51,7 +52,7 @@ const page = () => {
             {/* Education Item 3 */}
             <div className="flex flex-col md:flex-row items-start md:items-center bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <div className="flex-shrink-0">
-                    <img src="/pisjes-logo.png" alt="School Logo" className="w-40 h-40 rounded-full object-cover" />
+                    <Image src="/pisjes-logo.png" alt="School Logo" className="w-40 h-40 rounded-full object-cover" />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-6">
                     <h3 className="text-2xl font-semibold text-gray-800">IGCSE/O Level, AS & A Level</h3>

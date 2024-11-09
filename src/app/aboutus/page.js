@@ -1,9 +1,10 @@
 import React from 'react';
+import Image from 'next/image';
 
 const TeamMember = ({ name, title, image, socials }) => {
   return (
     <div className="text-center text-gray-500 dark:text-gray-400">
-      <img
+      <Image
         className="mx-auto mb-4 w-36 h-36 rounded-full"
         src={image}
         alt={`${name} Avatar`}
