@@ -111,27 +111,27 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='py-2'>
-                        <a href='#' className='text-white'>
+                        <a href='/myeducation' className='text-white'>
                             Education
                         </a>
                     </li>
                     <li className="py-2">
-                        <a href="/aboutus" className="text-white">
+                        <a href="/myexperience" className="text-white">
                             Work Experience
                         </a>
                     </li>
                     <li className="py-2">
-                        <a href="/services" className="text-white">
+                        <a href="/projects" className="text-white">
                             Projects
                         </a>
                     </li>
                     <li className="py-2">
-                        <a href="/projects" className="text-white">
+                        <a href="/CV.pdf" className="text-white">
                             CV
                         </a>
                     </li>
                     <li className="py-2">
-                        <a href="/contactus" className="text-white">
+                        <a href="/contactme" className="text-white">
                             Contact Me
                         </a>
                     </li>

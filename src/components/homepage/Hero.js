@@ -42,17 +42,17 @@ const Hero = () => {
             </p>
             <center><div className='button-container flex justify-center gap-4 mt-10'>
               <a href='/projects'>
-                <Button className='border-none border-slate-500 shadow-lg rounded-lg px-4 py-5 bg-[#c8a7eb] hover:bg-[#c39eea]'>
-                  Explore my projects
-                </Button>
+              <Button className='border-none border-slate-500 shadow-lg rounded-lg px-4 py-5 bg-[#c8a7eb] hover:bg-[#c39eea] hover:scale-105 transition-transform duration-300'>
+                Explore my projects
+              </Button>
               </a>
               <a href='/contactme'>
-                <Button className='border-none border-slate-500 shadow-lg rounded-lg px-4 py-5 bg-[#c8a7eb] hover:bg-[#c39eea]'>
+                <Button className='border-none border-slate-500 shadow-lg rounded-lg px-4 py-5 bg-[#c8a7eb] hover:bg-[#c39eea] hover:scale-105 transition-transform duration-300'>
                   Get in touch
                 </Button>
               </a>
               <a href='/CV.pdf' target='_blank' rel='noopener noreferrer'>
-                <Button className='border-none border-slate-500 shadow-lg rounded-lg px-4 py-5 bg-[#c8a7eb] hover:bg-[#c39eea]'>
+                <Button className='border-none border-slate-500 shadow-lg rounded-lg px-4 py-5 bg-[#c8a7eb] hover:bg-[#c39eea] hover:scale-105 transition-transform duration-300'>
                   Download my CV
                 </Button>
               </a>
