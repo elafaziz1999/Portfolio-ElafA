@@ -15,7 +15,7 @@ export default function About() {
 
         {/* About Section */}
         <section className="text-center mb-12">
-          <h2 className="text-3xl font-semibold mb-4">Intro</h2>
+          <h2 className="text-3xl font-semibold mb-4">Personal Statement</h2>
           <p className="text-gray-700 leading-relaxed text-justify">
           Hello! I’m Elaf Aziz, a passionate Full-Stack Developer with expertise in modern web technologies, cloud computing, and React.js.
           I hold an <strong>MSc in Software Engineering with Cloud Computing</strong> from <strong>City, University of London</strong> with <strong>Merit (2:1)</strong>,
