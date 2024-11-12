@@ -18,7 +18,7 @@ export default function About() {
           <h2 className="text-3xl font-semibold mb-4">Intro</h2>
           <p className="text-gray-700 leading-relaxed text-justify">
           Hello! I’m Elaf Aziz, a passionate Full-Stack Developer with expertise in modern web technologies, cloud computing, and React.js.
-          I hold an MSc in Software Engineering with Cloud Computing from <strong>City, University of London</strong> with <strong>Merit (2:1)</strong>,
+          I hold an <strong>MSc in Software Engineering with Cloud Computing</strong> from <strong>City, University of London</strong> with <strong>Merit (2:1)</strong>,
           along with a <strong>BSc (Hons) in Computer Science</strong> from <strong>University of Hertfordshire</strong> with <strong>Upper Second Class Honours (2:1)</strong>, and have hands-on experience in both front-end and back-end development,
           specializing in technologies like ReactJS, Node.js, and AWS. I build scalable solutions and optimized full-stack applications to drive innovation.
           I thrive on solving complex challenges and creating seamless digital experiences through innovative solutions.
