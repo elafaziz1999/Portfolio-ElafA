@@ -36,7 +36,7 @@ export default function About() {
               { name: 'Tailwind CSS', img: '/tailwind-css.png' },
               { name: 'Node', img: '/nodejs.png' },
               { name: 'Express', img: '/expressjs.png' },
-              { name: 'AWS', img: '/aws.png' },
+              { name: 'AWS', img: '/AWS.png' },
               { name: 'PHP', img: '/php.png' },
               { name: 'MongoDB', img: '/mongodb.svg' },
               { name: 'HTML', img: '/HTML.png' },
