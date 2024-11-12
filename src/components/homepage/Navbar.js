@@ -106,7 +106,7 @@ const Navbar = () => {
                 </div>
                 <ul className="px-4 py-2">
                     <li className="py-2">
-                        <a href="#" className="text-white">
+                        <a href="/aboutme" className="text-white">
                             About Me
                         </a>
                     </li>
